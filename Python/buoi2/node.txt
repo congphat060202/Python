@@ -1,0 +1,39 @@
+kiểu dữ liệu chuỗi 
+1. khai báo chuỗi 
+str_a = "",'',''''''
+str_a = "CS466"  #MSSV = '26211234562'
+2. truy xuất phần tử trong chuỗi
+    c   s   4   6   6
+    0   1   2   3   4
+    -5  -4  -3  -2  -1 
+cú pháp: tenbien[index]
+print(str_a[5])
+print(str_a[-2])
+print(str_a[-1])
+
+3. trích xuất chuỗi con
+cú pháp: tenbien[start:end:step]
+print(str_a[0:2])
+print(str_a[0:6])
+print(str_a[-1:-3])
+print(str_a[-3:-1])
+print(str_a[-3:0])
+
+4. các phương thức có trong chuỗi
+len(): Phương thức này được sử dụng để tính độ dài của chuỗi, tức là số ký tự trong chuỗi.
+
+str.upper(): Chuyển đổi chuỗi thành dạng in hoa (chữ hoa).
+
+str.lower(): Chuyển đổi chuỗi thành dạng in thường (chữ thường).
+
+str.strip(): Loại bỏ khoảng trắng và ký tự xuống dòng ở đầu và cuối chuỗi.
+
+str.split(): Tách chuỗi thành một danh sách các phần tử, sử dụng một ký tự hoặc chuỗi phân tách.
+
+str.replace(): Thay thế một chuỗi con bằng một chuỗi khác trong chuỗi.
+
+str.find(): Tìm vị trí xuất hiện đầu tiên của một chuỗi con trong chuỗi.
+
+str.startswith(): Kiểm tra xem chuỗi có bắt đầu bằng một chuỗi con cụ thể không.
+
+str.endswith(): Kiểm tra xem chuỗi có kết thúc bằng một chuỗi con cụ thể không.
